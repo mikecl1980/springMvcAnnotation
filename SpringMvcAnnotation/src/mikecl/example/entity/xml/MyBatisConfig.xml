@@ -10,7 +10,7 @@
     <!-- <setting name="logImpl" value="LOG4J"/> -->
   </settings>
 
-  <!-- <plugins>
+  <plugins>
     <plugin interceptor="com.github.pagehelper.PageHelper">
       <property name="dialect" value="mysql"/>
       <property name="offsetAsPageNum" value="true"/>
@@ -21,7 +21,7 @@
       <property name="supportMethodsArguments" value="false"/>
       <property name="returnPageInfo" value="none"/>
     </plugin>
-  </plugins> -->
+  </plugins>
 
   <mappers>
     <mapper resource="/mikecl/example/entity/xml/UserMapper.xml"/>
