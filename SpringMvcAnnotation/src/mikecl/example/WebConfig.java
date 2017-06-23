@@ -9,6 +9,7 @@ import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.mybatis.spring.annotation.MapperScan;
 import org.mybatis.spring.mapper.MapperScannerConfigurer;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -69,11 +70,12 @@ public class WebConfig extends WebMvcConfigurerAdapter
     }  
 	
 	@Bean  
+	@Autowired
 	public SqlSessionFactoryBean sqlSessionFactory()
 	{  
 	    SqlSessionFactoryBean sqlSessionFactoryBean = new SqlSessionFactoryBean();  
 	    sqlSessionFactoryBean.setDataSource(this.dataSource());
-	    //sqlSessionFactoryBean.setConfigLocation(new ClassPathResource("MyBatisConfig.xml"));  
+	    sqlSessionFactoryBean.setConfigLocation(new ClassPathResource("/mikecl/example/entity/xml/MyBatisConfig.xml"));  
 	    return sqlSessionFactoryBean;  
 	} 
 	
