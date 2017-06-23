@@ -69,8 +69,7 @@ public class WebConfig extends WebMvcConfigurerAdapter
         return dataSource;  
     }  
 	
-	@Bean  
-	@Autowired
+	@Bean  	
 	public SqlSessionFactoryBean sqlSessionFactory()
 	{  
 	    SqlSessionFactoryBean sqlSessionFactoryBean = new SqlSessionFactoryBean();  
