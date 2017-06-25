@@ -91,13 +91,15 @@ public class WebConfig extends WebMvcConfigurerAdapter
         return dataSource;  
     } 
 	
-	@Bean  
-	@Autowired
-	public SqlSessionFactoryBean sqlSessionFactory(DataSource dataSource)
+
+
+	@Bean  	
+	public SqlSessionFactoryBean sqlSessionFactory()
+
 	{  
 	    SqlSessionFactoryBean sqlSessionFactoryBean = new SqlSessionFactoryBean();  
 	    //sqlSessionFactoryBean.setDataSource(this.dataSource());
-	    sqlSessionFactoryBean.setDataSource(dataSource);
+	    sqlSessionFactoryBean.setDataSource(dataSource());
 	    sqlSessionFactoryBean.setConfigLocation(new ClassPathResource("/mikecl/example/entity/xml/MyBatisConfig.xml"));  
 	    return sqlSessionFactoryBean;  
 	} 
