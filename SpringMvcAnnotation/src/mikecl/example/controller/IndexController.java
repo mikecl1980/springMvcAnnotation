@@ -20,7 +20,7 @@ public class IndexController
 		User u = userService.findById(Long.valueOf("1"));
 		System.out.println(u.getName());
 		System.out.println(u.getUserid());
-		System.out.println(1);
+		System.out.println(11);
 		return "index";
 	}
 }
