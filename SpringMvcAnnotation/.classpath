@@ -34,16 +34,16 @@
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-test-4.3.8.RELEASE.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-tx-4.3.8.RELEASE.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-web-4.3.8.RELEASE.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-webmvc-4.3.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-webmvc-4.3.8.RELEASE.jar" sourcepath="C:/Users/ZJU/.m2/repository/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE-sources.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-webmvc-portlet-4.3.8.RELEASE.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-websocket-4.3.8.RELEASE.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/thymeleaf-3.0.2.RELEASE.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/thymeleaf-spring4-3.0.2.RELEASE.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/unbescape-1.1.4.RELEASE.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/pagehelper-4.1.6.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/druid-1.0.23.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/json-lib-2.3-jdk15.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jsqlparser-1.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/druid-1.0.23.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
 		<attributes>
 			<attribute name="owner.project.facets" value="java"/>
